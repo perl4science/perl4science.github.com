@@ -1,13 +1,10 @@
 ---
 layout: page
-title: "home"
-date: 2012-07-12 16:07
+title: "Perl for Science"
 comments: true
 sharing: true
 footer: true
 ---
-
-#Welcome to the Perl for Science website
 
 This page is intended to promote all those ways that we use our favorite language to get things done in all scientific disciplines. Go ahead, add links to your project, provide examples and give installation help. Just fork the [website's repo](https://github.com/perl4science/perl4science.github.com), add your content and submit a pull request.
 
