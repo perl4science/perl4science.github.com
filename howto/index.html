@@ -153,9 +153,13 @@
 <pre><code>rake deploy
 </code></pre>
 
-<p>it should push the local changes to the <code>master</code> branch on GitHub and thus it will be publically viewable.</p>
+<p>it should push the local changes to the <code>master</code> branch on GitHub and thus it will be publically viewable. Note that in this case you should also commit your changes to the <code>source</code> branch and push them.</p>
 
-<p>Otherwise, if you don&#8217;t have commit rights, you should commit a pull request from your local <code>source</code> branch and we will evaluate your changes and hopefully deploy them soon.</p>
+<pre><code>git commit -a -m 'message'
+git push origin source
+</code></pre>
+
+<p>If you don&#8217;t have commit rights, you should commit, then issue a pull request from your local <code>source</code> branch and we will evaluate your changes and hopefully deploy them soon.</p>
 
   
     <footer>
