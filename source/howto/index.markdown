@@ -21,6 +21,18 @@ An Octopress site is one git repository with (at least) two branches.
 
 The Jekyll-formatted source documents are inside the `source` folder. The configuration is in the `_config.yml` and `Rakefile` files. Some of the style files are in the `sass` folder.
 
+##For small changes ...
+
+Running Octopress makes administering the site easy, but its rather heavy if you only want to make a few line changes. If this is all you want to do, then
+
+1. Fork the repo
+2. Be sure you are on the branch `source`
+3. Edit the files in the folder `source`
+4. Commit to your fork
+5. Submit a pull request for consideration
+
+If you want to create new pages or blog posts, or if you want to be able to deploy the site, you will need to read on!
+
 ##Setting up your system
 
 Be sure that your system is setup as detailed on the [Octopress setup site](http://octopress.org/docs/setup/). Currently Octopress uses Ruby 1.9.2. Here is a quick setup using [rvm](https://rvm.io/) (which is like [PerlBrew](http://perlbrew.pl/) for Ruby).
@@ -112,5 +124,5 @@ it should push the local changes to the `master` branch on GitHub and thus it wi
     git commit -a -m 'message'
     git push origin source
 
-If you don't have commit rights, you should commit, then issue a pull request from your local `source` branch and we will evaluate your changes and hopefully deploy them soon.
+If you don't have commit rights, you should commit to your local fork, then issue a pull request from your `source` branch and we will evaluate your changes and hopefully deploy them soon.
 
