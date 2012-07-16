@@ -20,11 +20,35 @@ An Octopress site is one git repository with (at least) two branches.
 
 The Jekyll-formatted source documents are inside the `source` folder. The configuration is in the `_config.yml` and `Rakefile` files. Some of the style files are in the `sass` folder.
 
+##Setting up your system
+
+Be sure that your system is setup as detailed on the [Octopress setup site](http://octopress.org/docs/setup/). Currently Octopress uses Ruby 1.9.2. Here is a quick setup using [rvm](https://rvm.io/) (which is like [PerlBrew](http://perlbrew.pl/) for Ruby).
+
+Install rvm by running
+
+    $ curl -L https://get.rvm.io | bash -s stable
+
+and be sure to `source` the setup file (and add it to your `.bashrc` file if you want it to work after every boot).
+
+Then install Ruby 1.9.2
+
+    $ rvm install 1.9.2
+
+it will likely list a number of dependencies that you should install, do so in another shell, then continue.
+
+Finally you will need the `bundler` gem, so do
+
+    $ gem install bundler
+
 ##Fork/clone the repo
 
-Be sure that your system is setup as detailed on the [octopress setup site](http://octopress.org/docs/setup/).
+Remember, we will only talk aout the `source` branch, be sure you are **always** using it, not `master`.
 
-In order to edit the site, either clone the repo (if you have commit rights) or fork if you don't.  Remember, we will only talk aout the `source` branch, be sure you are **always** using it, not `master`.
+Clone the site, directly to the `source` branch
+
+    $ git clone -b source git@github.com:perl4science/perl4science.github.com.git
+
+Note that the url may be your fork if you do not have commit rights to the main repo.
 
 ##Create a new post
 
