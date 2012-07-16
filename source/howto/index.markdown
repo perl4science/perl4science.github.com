@@ -1,7 +1,8 @@
 ---
 layout: page
 title: "How to Edit This Site"
-date: 2012-07-13 16:00
+author: Joel Berger
+date: 2012-07-16
 comments: true
 sharing: true
 footer: true
@@ -23,6 +24,10 @@ The Jekyll-formatted source documents are inside the `source` folder. The config
 ##Setting up your system
 
 Be sure that your system is setup as detailed on the [Octopress setup site](http://octopress.org/docs/setup/). Currently Octopress uses Ruby 1.9.2. Here is a quick setup using [rvm](https://rvm.io/) (which is like [PerlBrew](http://perlbrew.pl/) for Ruby).
+
+First, be sure you have `libssl-dev` installed, Octopress has trouble if you don't. On Debian/Ubuntu this is done with
+
+    $ sudo apt-get install libssl-dev
 
 Install rvm by running
 
@@ -49,6 +54,20 @@ Clone the site, directly to the `source` branch
     $ git clone -b source git@github.com:perl4science/perl4science.github.com.git
 
 Note that the url may be your fork if you do not have commit rights to the main repo.
+
+Then `cd` into the new directory. Note that rvm may warn you here, enter `y` to continue. Now install the necessary bundles with 
+
+    $ bundle install
+
+Finally if you want to be able to deploy the site, if you have commit rights, you will need to run
+
+    $ rake setup_github_pages
+
+and when prompted enter the ssh url of the repository `git@github.com:perl4science/perl4science.github.com.git`
+
+##Editing the site
+
+Well thats a lot of stuff but you should be ready to go now!
 
 ##Create a new post
 
@@ -84,7 +103,7 @@ and then visit the site at `localhost:4000` (or whatever it tells you). You shou
 
 ##Deploying the site
 
-If you have commit privileges to the main repository, if you issue 
+If you have commit privileges to the main repository, and assuming you did the required setup step above, you can issue 
 
     rake deploy
 
