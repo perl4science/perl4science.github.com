@@ -16,5 +16,5 @@ This site has a sister Google Group called <a href="https://groups.google.com/fo
 * [BioPerl](http://www.bioperl.org/) - a community effort to produce Perl code which is useful in biology
 * [PerlGSL](http://p3rl.org/PerlGSL) - new project to provide the [Gnu Scientific Library](http://www.gnu.org/software/gsl/) to Perl with a Perlish feel
 * [Math::GSL](http://p3rl.org/Math::GSL) - another wrapper of the GSL for Perl, this one made using [SWIG](http://www.swig.org/)
-* [Math::Cephes](https://p3rl.org/Math::Cephes)" - a numerical library of mathematical functions
+* [Math::Cephes](https://p3rl.org/Math::Cephes) - a numerical library of mathematical functions
 
