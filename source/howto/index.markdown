@@ -8,6 +8,8 @@ sharing: true
 footer: true
 ---
 
+This site is hosted on GithHub at [https://github.com/perl4science/perl4science.github.com](https://github.com/perl4science/perl4science.github.com). But wait! Thats not enough to go tinkering just yet. Please read at least through the section entitled _For small changes_ before contributing. Thanks.
+
 ##Octopress
 
 This site uses [Octopress](http://octopress.org/) to manage and publish a [Jekyll](http://github.com/mojombo/jekyll) site hosted on [GitHub Pages](http://pages.github.com/). While GitHub Pages/Jekyll are cool, they aren't the easiest to use/maintain; that's where Octopress comes in. Before reading on, take a moment to read up on Jekyll and Octopress.
