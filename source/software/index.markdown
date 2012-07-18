@@ -19,6 +19,33 @@ So CPAN or not here are a list of useful modules and projects, perhaps a blurb a
 * [Math::GSL](http://p3rl.org/Math::GSL) - another wrapper of the GSL for Perl, this one made using [SWIG](http://www.swig.org/)
 * [Math::Cephes](https://p3rl.org/Math::Cephes) - a numerical library of mathematical functions
 
+
+###Plotting
+
+* [PDL::Graphics::Prima](http://p3rl.org/PDL::Graphics::Prima) - A new graphics engine for PDL based on the [Prima](http://p3rl.org/Prima) toolkit
+* [PDL::Graphics::Gnuplot](http://p3rl.org/PDL::Graphics::Gnuplot) - An interface between PDL and [Gnuplot](http://gnuplot.info)
+
+###Statistics
+
+* [PDL::Stats](http://p3rl.org/PDL::Stats) - Many useful routines for doing statistical analysis using PDL. Note that the docs might render better on its [project site](http://pdl-stats.sf.net) 
+
+###Units
+
+* [Physics::Unit](http://p3rl.org/Physics::Unit) - Manipulate physics units and dimensions
+* [MooseX::Types::NumUnit](http://p3rl.org/MooseX::Types::NumUnit) - (Ab)use [Moose](http://p3rl.org/Moose)'s type coercions to handle inputs with units. Uses `Physics::Unit` internally.
+
+
+##Physics
+
+###Optics
+
+* [Physics::RayTransfer](http://p3rl.org/Physics::RayTransfer) - Object-oriented ray transfer analysis. Designed with special attention to laser cavity stability analysis. (If you are looking for graphic rendering, this probably isn't what you are looking for.)
+
 ##Biology
 
 * [BioPerl](http://www.bioperl.org/) - a community effort to produce Perl code which is useful in biology
+
+##Artificial Intelligence/Machine Learning
+
+* [PerlGP](http://perlgp.org/) - "The Open Source Perl Genetic Programming System"
+* [Darwin Tunes](http://darwintunes.org/) - "evolutionary music engine", uses both PDL and PerlGP to evolve music. Source: [github](https://github.com/bobular/DarwinTunes), Articles: [PNAS](http://www.pnas.org/content/early/2012/06/12/1203182109), [New Scientist](http://www.newscientist.com/blogs/culturelab/2010/08/the-experimental-evolution-of-music-and-snowball-the-dancing-cockatoo.html)
