@@ -43,19 +43,6 @@ So CPAN or not here are a list of useful modules and projects, perhaps a blurb a
 * [Math::Symbolic](http://p3rl.org/Math::Symbolic) - Perl implementation of symbolic mathematics
 * [Math::Mathematica](http://p3rl.org/Math::Mathematica) - A bridge between Perl and the proprietary symbolic language [Mathematica](http://www.wolfram.com/mathematica/)
 
-##Parallel Computing
-
-###[MPI](http://www.mcs.anl.gov/research/projects/mpi/)
-
-* [Parallel::MPI](http://p3rl.org/Parallel::MPI) - basic bindings to the MPI library
-* [Parallel::MPI::Simple](http://p3rl.org/Parallel::MPI::Simple) - a simplified, more Perlish interface to MPI
-* [PDL::Parallel::MPI](http://p3rl.org/PDL::Parallel::MPI) - extension to Parallel::MPI with helpful PDL-specific commands
-
-###GPU Computing
-
-* [OpenCL](http://p3rl.org/OpenCL) - bindings to the OpenCL library
-* [CUDA::Minimal](https://github.com/run4flat/perl-CUDA-Minimal) - a minimal, Perlish interface to CUDA
-
 ##Physics
 
 ###Optics
@@ -74,3 +61,16 @@ So CPAN or not here are a list of useful modules and projects, perhaps a blurb a
 
 * [PerlGP](http://perlgp.org/) - "The Open Source Perl Genetic Programming System"
 * [Darwin Tunes](http://darwintunes.org/) - "evolutionary music engine", uses both PDL and PerlGP to evolve music. Source: [github](https://github.com/bobular/DarwinTunes), Articles: [PNAS](http://www.pnas.org/content/early/2012/06/12/1203182109), [New Scientist](http://www.newscientist.com/blogs/culturelab/2010/08/the-experimental-evolution-of-music-and-snowball-the-dancing-cockatoo.html)
+
+##Parallel Computing
+
+###[MPI](http://www.mcs.anl.gov/research/projects/mpi/)
+
+* [Parallel::MPI](http://p3rl.org/Parallel::MPI) - basic bindings to the MPI library
+* [Parallel::MPI::Simple](http://p3rl.org/Parallel::MPI::Simple) - a simplified, more Perlish interface to MPI
+* [PDL::Parallel::MPI](http://p3rl.org/PDL::Parallel::MPI) - extension to Parallel::MPI with helpful PDL-specific commands
+
+###GPU Computing
+
+* [OpenCL](http://p3rl.org/OpenCL) - bindings to the OpenCL library
+* [CUDA::Minimal](https://github.com/run4flat/perl-CUDA-Minimal) - a minimal, Perlish interface to CUDA
