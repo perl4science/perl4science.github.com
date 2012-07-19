@@ -74,3 +74,16 @@ So CPAN or not here are a list of useful modules and projects, perhaps a blurb a
 
 * [OpenCL](http://p3rl.org/OpenCL) - bindings to the OpenCL library
 * [CUDA::Minimal](https://github.com/run4flat/perl-CUDA-Minimal) - a minimal, Perlish interface to CUDA
+
+###Simple fork-based Parallelization
+
+* [perlfork](http://perldoc.perl.org/perlfork.html) - Perl's built-in fork (and fork emulation on Windows)
+* [forks](p3rl.org/forks) - drop-in replacement for Perl's threads module that uses forks; only works on Unixish systems
+* [Parallel::ForkManager]() - simpler way to manage parallel tasks using forks
+* [Parallel::Loops](http://p3rl.org/Prallel::loops) - wrapper over Parallel::ForkManager that also provides a simple means for shared data; communicates data back to parent using Storable and shared file handles, so not designed for large exchanges of data
+
+###Simple Perl thread-based Parallelization
+
+* [perlthrtut](http://perldoc.perl.org/perlthrtut.html) - Perl's built-in threads
+* [forks](p3rl.org/forks) - drop-in replacement for Perl's threads module that uses forks; only works on Unixish systems
+* Thread:: - many thread-related modules on CPAN are in the Thread:: namespace
