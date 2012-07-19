@@ -49,11 +49,11 @@ So CPAN or not here are a list of useful modules and projects, perhaps a blurb a
 
 * [Parallel::MPI](http://p3rl.org/Parallel::MPI) - basic bindings to the MPI library
 * [Parallel::MPI::Simple](http://p3rl.org/Parallel::MPI::Simple) - a simplified, more Perlish interface to MPI
-* [PDL::Parallel::MPI](http://PDL::Parallel::MPI) - extension to Parallel::MPI with helpful PDL-specific commands
+* [PDL::Parallel::MPI](http://p3rl.org/PDL::Parallel::MPI) - extension to Parallel::MPI with helpful PDL-specific commands
 
 ###GPU Computing
 
-* [OpenCL](p3rl.org/OpenCL) - bindings to the OpenCL library
+* [OpenCL](http://p3rl.org/OpenCL) - bindings to the OpenCL library
 * [CUDA::Minimal](https://github.com/run4flat/perl-CUDA-Minimal) - a minimal, Perlish interface to CUDA
 
 ##Physics
