@@ -43,6 +43,19 @@ So CPAN or not here are a list of useful modules and projects, perhaps a blurb a
 * [Math::Symbolic](http://p3rl.org/Math::Symbolic) - Perl implementation of symbolic mathematics
 * [Math::Mathematica](http://p3rl.org/Math::Mathematica) - A bridge between Perl and the proprietary symbolic language [Mathematica](http://www.wolfram.com/mathematica/)
 
+##Parallel Computing
+
+###[MPI](http://www.mcs.anl.gov/research/projects/mpi/)
+
+* [Parallel::MPI](http://p3rl.org/Parallel::MPI) - basic bindings to the MPI library
+* [Parallel::MPI::Simple](http://p3rl.org/Parallel::MPI::Simple) - a simplified, more Perlish interface to MPI
+* [PDL::Parallel::MPI](http://PDL::Parallel::MPI) - extension to Parallel::MPI with helpful PDL-specific commands
+
+###GPU Computing
+
+* [OpenCL](p3rl.org/OpenCL) - bindings to the OpenCL library
+* [CUDA::Minimal](https://github.com/run4flat/perl-CUDA-Minimal) - a minimal, Perlish interface to CUDA
+
 ##Physics
 
 ###Optics
