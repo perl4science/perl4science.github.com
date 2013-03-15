@@ -45,16 +45,29 @@ So CPAN or not here are a list of useful modules and projects, perhaps a blurb a
 
 ##Physics
 
-###Optics
+###Astrophysics
 
-* [Physics::RayTransfer](https://metacpan.org/module/Physics::RayTransfer) - Object-oriented ray transfer analysis. Designed with special attention to laser cavity stability analysis. (If you are looking for graphic rendering, this probably isn't what you are looking for.)
+* [Field Line Universal relaXer (FLUX)](http://flux.boulder.swri.edu/wiki/index.php/Main_Page) - is a fluxon model that follows magnetic field evolution in a conductive atmosphere, with exactly prescribed field topology.
+
+###Electron Microscopy
+
+* [Physics::UEMColumn](https://metacpan.org/module/Physics::UEMColumn) - an implementation of the Analytic Gaussian (AG) electron pulse propagation model, presented by [Michalik and Sipe](http://dx.doi.org/10.1063/1.2178855) and extended by [Berger and Schroeder](http://dx.doi.org/10.1063/1.3512847)
+
+###Experiment Analysis
+
+* [Demeter](http://bruceravel.github.com/demeter/) - a comprehensive system for processing and analyzing X-ray Absorption Spectroscopy data.
 
 ###High Energy
 
 * [SOOT](https://metacpan.org/module/SOOT) - Perl interface to CERN's [ROOT](http://root.cern.ch/) system
 
+###Optics
+
+* [Physics::RayTransfer](https://metacpan.org/module/Physics::RayTransfer) - Object-oriented ray transfer analysis. Designed with special attention to laser cavity stability analysis. (If you are looking for graphic rendering, this probably isn't what you are looking for.)
+
 ##Biology
 
+* [biodiverse](http://code.google.com/p/biodiverse/) - a tool for the spatial analysis of biological and related diversity
 * [BioPerl](http://www.bioperl.org/) - a community effort to produce Perl code which is useful in biology
 
 ##Artificial Intelligence/Machine Learning
@@ -64,7 +77,7 @@ So CPAN or not here are a list of useful modules and projects, perhaps a blurb a
 
 ##Parallel Computing
 
-* [MCE](https://metacpan.org/module/MCE)
+* [MCE](https://metacpan.org/module/MCE) - Many-Core Engine for Perl. Provides parallel processing capabilities. Several examples are provided in [this thread](https://groups.google.com/forum/?fromgroups=#!topic/the-quantified-onion/2cSWXogt5Xs).
 
 ###[MPI](http://www.mcs.anl.gov/research/projects/mpi/)
 
