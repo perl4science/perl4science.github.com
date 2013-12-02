@@ -74,6 +74,8 @@ So CPAN or not here are a list of useful modules and projects, perhaps a blurb a
 
 * [PerlGP](http://perlgp.org/) - "The Open Source Perl Genetic Programming System"
 * [Darwin Tunes](http://darwintunes.org/) - "evolutionary music engine", uses both PDL and PerlGP to evolve music. Source: [github](https://github.com/bobular/DarwinTunes), Articles: [PNAS](http://www.pnas.org/content/early/2012/06/12/1203182109), [New Scientist](http://www.newscientist.com/blogs/culturelab/2010/08/the-experimental-evolution-of-music-and-snowball-the-dancing-cockatoo.html)
+* [Clairlib](http://www.clairlib.org/index.php/Main_Page) - "The Clair library is a suite of open-source Perl modules intended to simplify a number of generic tasks in natural language processing (NLP), information retrieval (IR), and network analysis (NA)."
+* [Algorithm::LibLinear](https://metacpan.org/pod/Algorithm::LibLinear) - A Perl binding for [LIBLINEAR](http://www.csie.ntu.edu.tw/~cjlin/liblinear/), a library for classification/regression using linear SVM and logistic regression
 
 ##Parallel Computing
 
