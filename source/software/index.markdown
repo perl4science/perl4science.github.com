@@ -106,3 +106,7 @@ So CPAN or not here are a list of useful modules and projects, perhaps a blurb a
 * [forks](https://metacpan.org/module/forks) - drop-in replacement for Perl's threads module that uses forks; only works on Unixish systems
 * Thread:: - many thread-related modules on CPAN are in the Thread:: namespace
 
+
+##Hardware
+
+[Lab::Measurement](https://metacpan.org/release/Lab-Measurement) - access measurement hardware for testing using lab hardware
