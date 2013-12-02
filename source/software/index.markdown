@@ -27,6 +27,7 @@ So CPAN or not here are a list of useful modules and projects, perhaps a blurb a
 
 * [PDL::Graphics::Prima](https://metacpan.org/module/PDL::Graphics::Prima) - A new graphics engine for PDL based on the [Prima](https://metacpan.org/module/Prima) toolkit
 * [PDL::Graphics::Gnuplot](https://metacpan.org/module/PDL::Graphics::Gnuplot) - An interface between PDL and [Gnuplot](http://gnuplot.info)
+* [WebService::Plotly](https://metacpan.org/pod/WebService::Plotly) - access the [plot.ly](https://plot.ly/) API for online plotting
 
 ###Statistics
 
