@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Modules and Projects - Perl 4 Science</title>
+  <meta name="author" content="Joel Berger">
+
+  
+  <meta name="description" content="Modules and Projects On of the key features of Perl is CPAN, the Comprehensive Perl Archive Network. CPAN is a huge collection of modules published &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://perl4science.github.com/software/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Perl 4 Science" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup style="float: left">
+  <h1><a href="/">Perl 4 Science</a></h1>
+  
+    <h2>doing science in our favorite language</h2>
+  
+</hgroup>
+<object style="float: right" type="image/svg+xml" data="/images/onion-scientist.svg" width="200" height="200"></object>
+
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:perl4science.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/software">Software</a></li>
+  <li><a href="/videos">Videos</a></li>
+  <li><a href="/blog">Blog</a></li>
+  <li><a href="https://groups.google.com/forum/#!forum/the-quantified-onion" target="_blank">Google Group</a></li>
+  <li><a href="/howto">Site HowTo</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">Modules and Projects</h1>
+    
+  </header>
+  
+  <p>On of the key features of Perl is <a href="http://cpan.org">CPAN</a>, the Comprehensive Perl Archive Network. CPAN is a huge collection of modules published by authors all over the world, there is a module availble to do almost any task! There are several front end search engines to CPAN, including the vernerable <a href="http://search.cpan.org">search.cpan.org</a> and the newer <a href="http://metacpan.org">metacpan.org</a>.</p>
+
+<p>There are of course other scientific Perl projects which are not hosted on CPAN. We hope to highlight these on this site, but we also want to encourage all module authors to consider publishing to CPAN, not only for the free testing, but to allow easy code reuse in the typical Perl way. If you would like help packaging your module for CPAN please let us know, we would love to help get you started.</p>
+
+<p>So CPAN or not here are a list of useful modules and projects, perhaps a blurb about what they do and a link to relevant repositories and documentation. If you have more to add, let us know, or <a href="/howto">send a pull request</a>.</p>
+
+<h2>Pure Mathematics</h2>
+
+<h3>Numerical Modules/Libraries</h3>
+
+<ul>
+<li><a href="http://pdl.perl.org">Perl Data Language</a> - PDL turns Perl into a free, array-oriented, numerical language</li>
+<li><a href="https://metacpan.org/module/PerlGSL">PerlGSL</a> - new project to provide the <a href="http://www.gnu.org/software/gsl/">Gnu Scientific Library</a> to Perl with a Perlish feel</li>
+<li><a href="https://metacpan.org/module/Math::GSL">Math::GSL</a> - another wrapper of the GSL for Perl, this one made using <a href="http://www.swig.org/">SWIG</a></li>
+<li><a href="https://metacpan.org/module/Math::Cephes">Math::Cephes</a> - Perl interface to the <a href="http://www.netlib.org/cephes/">cephes</a> library. Provides over 150 mathematical functions</li>
+<li><a href="https://metacpan.org/module/Math::Pari">Math::Pari</a> - Perl interface to the <a href="http://pari.math.u-bordeaux.fr/">PARI</a> library for numerical/scientific/number-theoretic calculations</li>
+</ul>
+
+
+<h3>Plotting</h3>
+
+<ul>
+<li><a href="https://metacpan.org/module/PDL::Graphics::Prima">PDL::Graphics::Prima</a> - A new graphics engine for PDL based on the <a href="https://metacpan.org/module/Prima">Prima</a> toolkit</li>
+<li><a href="https://metacpan.org/module/PDL::Graphics::Gnuplot">PDL::Graphics::Gnuplot</a> - An interface between PDL and <a href="http://gnuplot.info">Gnuplot</a></li>
+<li><a href="https://metacpan.org/pod/WebService::Plotly">WebService::Plotly</a> - access the <a href="https://plot.ly/">plot.ly</a> API for online plotting</li>
+</ul>
+
+
+<h3>Statistics</h3>
+
+<ul>
+<li><a href="https://metacpan.org/module/PDL::Stats">PDL::Stats</a> - Many useful routines for doing statistical analysis using PDL. Note that the docs might render better on its <a href="http://pdl-stats.sf.net">project site</a></li>
+<li><a href="https://metacpan.org/module/Statistics::R">Statistics::R</a> - A bridge between Perl and the statistical language <a href="http://www.r-project.org/">R</a></li>
+</ul>
+
+
+<h3>Units</h3>
+
+<ul>
+<li><a href="https://metacpan.org/module/Physics::Unit">Physics::Unit</a> - Manipulate physics units and dimensions</li>
+<li><a href="https://metacpan.org/module/MooseX::Types::NumUnit">MooseX::Types::NumUnit</a> - (Ab)use <a href="https://metacpan.org/module/Moose">Moose</a>&#8217;s type coercions to handle inputs with units. Uses <code>Physics::Unit</code> internally.</li>
+</ul>
+
+
+<h3>Symbolic Mathematics</h3>
+
+<ul>
+<li><a href="https://metacpan.org/module/Math::Symbolic">Math::Symbolic</a> - Perl implementation of symbolic mathematics</li>
+<li><a href="https://metacpan.org/module/Math::Mathematica">Math::Mathematica</a> - A bridge between Perl and the proprietary symbolic language <a href="http://www.wolfram.com/mathematica/">Mathematica</a></li>
+</ul>
+
+
+<h2>Physics</h2>
+
+<h3>Astrophysics</h3>
+
+<ul>
+<li><a href="http://flux.boulder.swri.edu/wiki/index.php/Main_Page">Field Line Universal relaXer (FLUX)</a> - is a fluxon model that follows magnetic field evolution in a conductive atmosphere, with exactly prescribed field topology.</li>
+</ul>
+
+
+<h3>Electron Microscopy</h3>
+
+<ul>
+<li><a href="https://metacpan.org/module/Physics::UEMColumn">Physics::UEMColumn</a> - an implementation of the Analytic Gaussian (AG) electron pulse propagation model, presented by <a href="http://dx.doi.org/10.1063/1.2178855">Michalik and Sipe</a> and extended by <a href="http://dx.doi.org/10.1063/1.3512847">Berger and Schroeder</a></li>
+</ul>
+
+
+<h3>Experiment Analysis</h3>
+
+<ul>
+<li><a href="http://bruceravel.github.com/demeter/">Demeter</a> - a comprehensive system for processing and analyzing X-ray Absorption Spectroscopy data.</li>
+</ul>
+
+
+<h3>High Energy</h3>
+
+<ul>
+<li><a href="https://metacpan.org/module/SOOT">SOOT</a> - Perl interface to CERN&#8217;s <a href="http://root.cern.ch/">ROOT</a> system</li>
+</ul>
+
+
+<h3>Optics</h3>
+
+<ul>
+<li><a href="https://metacpan.org/module/Physics::RayTransfer">Physics::RayTransfer</a> - Object-oriented ray transfer analysis. Designed with special attention to laser cavity stability analysis. (If you are looking for graphic rendering, this probably isn&#8217;t what you are looking for.)</li>
+</ul>
+
+
+<h2>Biology</h2>
+
+<ul>
+<li><a href="http://code.google.com/p/biodiverse/">biodiverse</a> - a tool for the spatial analysis of biological and related diversity</li>
+<li><a href="http://www.bioperl.org/">BioPerl</a> - a community effort to produce Perl code which is useful in biology</li>
+</ul>
+
+
+<h2>Artificial Intelligence/Machine Learning</h2>
+
+<ul>
+<li><a href="http://perlgp.org/">PerlGP</a> - &#8220;The Open Source Perl Genetic Programming System&#8221;</li>
+<li><a href="http://darwintunes.org/">Darwin Tunes</a> - &#8220;evolutionary music engine&#8221;, uses both PDL and PerlGP to evolve music. Source: <a href="https://github.com/bobular/DarwinTunes">github</a>, Articles: <a href="http://www.pnas.org/content/early/2012/06/12/1203182109">PNAS</a>, <a href="http://www.newscientist.com/blogs/culturelab/2010/08/the-experimental-evolution-of-music-and-snowball-the-dancing-cockatoo.html">New Scientist</a></li>
+<li><a href="http://www.clairlib.org/index.php/Main_Page">Clairlib</a> - &#8220;The Clair library is a suite of open-source Perl modules intended to simplify a number of generic tasks in natural language processing (NLP), information retrieval (IR), and network analysis (NA).&#8221;</li>
+<li><a href="https://metacpan.org/pod/Algorithm::LibLinear">Algorithm::LibLinear</a> - A Perl binding for <a href="http://www.csie.ntu.edu.tw/~cjlin/liblinear/">LIBLINEAR</a>, a library for classification/regression using linear SVM and logistic regression</li>
+</ul>
+
+
+<h2>Parallel Computing</h2>
+
+<ul>
+<li><a href="https://metacpan.org/module/MCE">MCE</a> - Many-Core Engine for Perl. Provides parallel processing capabilities. Several examples are provided in <a href="https://groups.google.com/forum/?fromgroups=#!topic/the-quantified-onion/2cSWXogt5Xs">this thread</a>.</li>
+</ul>
+
+
+<h3><a href="http://www.mcs.anl.gov/research/projects/mpi/">MPI</a></h3>
+
+<ul>
+<li><a href="https://metacpan.org/module/Parallel::MPI">Parallel::MPI</a> - basic bindings to the MPI library</li>
+<li><a href="https://metacpan.org/module/Parallel::MPI::Simple">Parallel::MPI::Simple</a> - a simplified, more Perlish interface to MPI</li>
+<li><a href="https://metacpan.org/module/PDL::Parallel::MPI">PDL::Parallel::MPI</a> - extension to Parallel::MPI with helpful PDL-specific commands</li>
+</ul>
+
+
+<h3>GPU Computing</h3>
+
+<ul>
+<li><a href="https://metacpan.org/module/OpenCL">OpenCL</a> - bindings to the OpenCL library</li>
+<li><a href="https://github.com/run4flat/perl-CUDA-Minimal">CUDA::Minimal</a> - a minimal, Perlish interface to CUDA</li>
+</ul>
+
+
+<h3>Simple fork-based Parallelization</h3>
+
+<ul>
+<li><a href="http://perldoc.perl.org/perlfork.html">perlfork</a> - Perl&#8217;s built-in fork (and fork emulation on Windows)</li>
+<li><a href="p3rl.org/forks">forks</a> - drop-in replacement for Perl&#8217;s threads module that uses forks; only works on Unixish systems</li>
+<li><a href="https://metacpan.org/module/Parallel::ForkManager">Parallel::ForkManager</a> - simpler way to manage parallel tasks using forks</li>
+<li><a href="https://metacpan.org/module/Parallel::Loops">Parallel::Loops</a> - wrapper over Parallel::ForkManager that also provides a simple means for shared data; communicates data back to parent using Storable and shared file handles, so not designed for large exchanges of data</li>
+</ul>
+
+
+<h3>Simple Perl thread-based Parallelization</h3>
+
+<ul>
+<li><a href="http://perldoc.perl.org/perlthrtut.html">perlthrtut</a> - Perl&#8217;s built-in threads</li>
+<li><a href="https://metacpan.org/module/forks">forks</a> - drop-in replacement for Perl&#8217;s threads module that uses forks; only works on Unixish systems</li>
+<li>Thread:: - many thread-related modules on CPAN are in the Thread:: namespace</li>
+</ul>
+
+
+<h2>Hardware</h2>
+
+<p><a href="https://metacpan.org/release/Lab-Measurement">Lab::Measurement</a> - access measurement hardware for testing using lab hardware</p>
+
+  
+    <footer>
+      
+      
+        <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://perl4science.github.com/software/index.html" data-via="" data-counturl="http://perl4science.github.com/software/index.html" >Tweet</a>
+  
+  
+  
+</div>
+
+      
+    </footer>
+  
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Joel Berger -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

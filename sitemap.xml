@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>http://perl4science.github.com/</loc>
+        <lastmod>2013-12-04T23:49:44-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://perl4science.github.com/blog/</loc>
+        <lastmod>2013-12-04T23:49:44-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://perl4science.github.com/blog/archives/</loc>
+        <lastmod>2013-12-04T23:49:44-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://perl4science.github.com/howto/</loc>
+        <lastmod>2013-12-04T23:49:44-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://perl4science.github.com/videos/</loc>
+        <lastmod>2013-12-04T23:49:44-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://perl4science.github.com/software/</loc>
+        <lastmod>2013-12-04T23:49:44-06:00</lastmod>
+    </url>
+</urlset>
