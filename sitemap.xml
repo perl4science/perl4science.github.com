@@ -2,7 +2,7 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://perl4science.github.com/</loc>
-        <lastmod>2013-12-04T23:49:44-06:00</lastmod>
+        <lastmod>2013-12-05T07:36:14-06:00</lastmod>
     </url>
     <url>
         <loc>http://perl4science.github.com/blog/</loc>
@@ -23,5 +23,9 @@
     <url>
         <loc>http://perl4science.github.com/software/</loc>
         <lastmod>2013-12-04T23:49:44-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://perl4science.github.com/concurrency-and-parallelism/</loc>
+        <lastmod>2013-12-05T07:36:14-06:00</lastmod>
     </url>
 </urlset>
