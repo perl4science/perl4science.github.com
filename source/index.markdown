@@ -15,3 +15,14 @@ This site has a sister Google Group called <a href="https://groups.google.com/fo
 
 A major feature of Perl is its users willingness to share their code. Peruse the [Software]({{ root_url }}/software) page to find modules that may be of use to you in your field of study.
 
+## Using Perl for Science
+
+### Concurrency
+
+Many data analysis tasks can be computationally time-consuming, but
+fortunately, Perl has the tools to help speed up the calculations by running
+them concurrently. See the
+[Concurrency and parallelism]({{ root_url }}/concurrency-and-parallelism) page
+for more information.
+
+
