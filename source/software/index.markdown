@@ -27,6 +27,7 @@ So CPAN or not here are a list of useful modules and projects, perhaps a blurb a
 
 * [PDL::Graphics::Prima](https://metacpan.org/module/PDL::Graphics::Prima) - A new graphics engine for PDL based on the [Prima](https://metacpan.org/module/Prima) toolkit
 * [PDL::Graphics::Gnuplot](https://metacpan.org/module/PDL::Graphics::Gnuplot) - An interface between PDL and [Gnuplot](http://gnuplot.info)
+* [WebService::Plotly](https://metacpan.org/pod/WebService::Plotly) - access the [plot.ly](https://plot.ly/) API for online plotting
 
 ###Statistics
 
@@ -74,6 +75,8 @@ So CPAN or not here are a list of useful modules and projects, perhaps a blurb a
 
 * [PerlGP](http://perlgp.org/) - "The Open Source Perl Genetic Programming System"
 * [Darwin Tunes](http://darwintunes.org/) - "evolutionary music engine", uses both PDL and PerlGP to evolve music. Source: [github](https://github.com/bobular/DarwinTunes), Articles: [PNAS](http://www.pnas.org/content/early/2012/06/12/1203182109), [New Scientist](http://www.newscientist.com/blogs/culturelab/2010/08/the-experimental-evolution-of-music-and-snowball-the-dancing-cockatoo.html)
+* [Clairlib](http://www.clairlib.org/index.php/Main_Page) - "The Clair library is a suite of open-source Perl modules intended to simplify a number of generic tasks in natural language processing (NLP), information retrieval (IR), and network analysis (NA)."
+* [Algorithm::LibLinear](https://metacpan.org/pod/Algorithm::LibLinear) - A Perl binding for [LIBLINEAR](http://www.csie.ntu.edu.tw/~cjlin/liblinear/), a library for classification/regression using linear SVM and logistic regression
 
 ##Parallel Computing
 
@@ -103,3 +106,7 @@ So CPAN or not here are a list of useful modules and projects, perhaps a blurb a
 * [forks](https://metacpan.org/module/forks) - drop-in replacement for Perl's threads module that uses forks; only works on Unixish systems
 * Thread:: - many thread-related modules on CPAN are in the Thread:: namespace
 
+
+##Hardware
+
+[Lab::Measurement](https://metacpan.org/release/Lab-Measurement) - access measurement hardware for testing using lab hardware
