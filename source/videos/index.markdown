@@ -6,6 +6,21 @@ sharing: true
 footer: true
 ---
 
+## Perl and Scientific Programming: A panel discussion -  Joe Kline - YAPC::NA 2014
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/tkrwAVZZgMY" frameborder="0" allowfullscreen></iframe>
+
+Panel members discuss their use of Perl in their scientific endeavors. How
+it was used in the past and how it might be used in the future.  Also
+discussed is how one might leverage Perl's strengths and mitigate its
+weaknesses in scientific programming.
+
+## Perl Data Language (PDL) - Jan Hoogenraad  - NLPW 2014
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/nS4o30_gi_w" frameborder="0" allowfullscreen></iframe>
+
+A small primer on what PDL is, and for whom.
+
 ## Modeling Physical Systems Using Modern Object-Oriented Perl - Joel Berger - YAPC::NA 2012
 
 <iframe width="420" height="315" src="http://www.youtube.com/embed/YnW1hTVQYfA" frameborder="0" allowfullscreen></iframe>
