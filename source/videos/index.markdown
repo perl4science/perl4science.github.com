@@ -6,6 +6,12 @@ sharing: true
 footer: true
 ---
 
+## Perl Data Language (PDL) - Jan Hoogenraad  - NLPW 2014
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/nS4o30_gi_w" frameborder="0" allowfullscreen></iframe>
+
+A small primer on what PDL is, and for whom.
+
 ## Modeling Physical Systems Using Modern Object-Oriented Perl - Joel Berger - YAPC::NA 2012
 
 <iframe width="420" height="315" src="http://www.youtube.com/embed/YnW1hTVQYfA" frameborder="0" allowfullscreen></iframe>
